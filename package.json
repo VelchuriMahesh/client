@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postinstall": "chmod -R 755 node_modules/.bin"
   },
   "browserslist": {
     "production": [
