@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postinstall": "chmod -R 755 node_modules/.bin"
+    "postinstall": "echo 'No chmod needed on Windows'"
   },
   "browserslist": {
     "production": [
